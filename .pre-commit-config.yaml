@@ -38,3 +38,4 @@ repos:
         types: [go]
         language: golang
         pass_filenames: false
+
