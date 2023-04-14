@@ -27,8 +27,8 @@ By default the cli is configured to attempt to authenticate against a production
 
 In order to test against the dev-twdpsio auth0 tenant set the following values to the dev-tenant settings.  
 ```bash
-export DPSCTL_IDPISSUERURL=https://dev-twdpsio.us.auth0.com/
-export DPSCTL_LOGINCLIENTID=<insert dev-twdpsio dev-dpsctl application client id>
+export DPSCTL_IDPISSUERURL=https://six-twdpsio.us.auth0.com/
+export DPSCTL_LOGINCLIENTID={{ op://cohorts/six-svc-auth0/twdpsio-dpsctl-client-id }}
 ```
 
 Clear your ~/.dpsctl/config.yaml file and re-login.  
